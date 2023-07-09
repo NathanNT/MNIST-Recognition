@@ -74,7 +74,7 @@ class NeuralNetwork:
         ground_truth = np.argmax(y, axis=1)
         return np.mean(predictions == ground_truth)
 
-    def train(self, X, y, epochs, learning_rate, batch_size=16):
+    def train(self, X, y, epochs, learning_rate, batch_size=32):
         # Training loop
         history_accuracy = []  # store accuracy for each epoch
         for i in range(epochs):
