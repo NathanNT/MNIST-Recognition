@@ -1,4 +1,4 @@
-# MNIST Neural Network
+# MNIST Neural Network from Scratch
 
 This script is a basic implementation of a Neural Network in Python using NumPy from scratch. It's designed to classify handwritten digits from the MNIST dataset.
 
@@ -6,7 +6,7 @@ This script is a basic implementation of a Neural Network in Python using NumPy 
 
 - Loads the MNIST dataset from local files.
 - Preprocesses the data (normalizes pixel values and one-hot encodes labels).
-- Trains a neural network on the dataset using sigmoid activation and stochastic gradient descent.
+- Trains a neural network on the dataset using mini-batching, sigmoid activation and stochastic gradient descent.
 - Evaluates the trained model's performance on a test set.
 - Saves a plot of the model's accuracy over training epochs.
 
